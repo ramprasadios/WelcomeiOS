@@ -11,6 +11,7 @@ import UIKit
 class ViewController3: UIViewController {
 
     @IBOutlet weak var listTableView: UITableView!
+    
     var days: [String] = ["Sun", "Mon", "Tue", "Wed", "Fri", "Sat"]
     var months: [String] = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
     
@@ -46,7 +47,18 @@ extension ViewController3 : UITableViewDataSource{
         
         return cell
     }
+}
+
+extension ViewController3: UITableViewDelegate {
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let cell = self.listTableView.cellForRow(at: indexPath)
+        if cell?.accessoryType == .checkmark {
+            cell?.accessoryType = .none
+        } else {
+            cell?.accessoryType = .checkmark
+        }
+    }
 }
 
 
