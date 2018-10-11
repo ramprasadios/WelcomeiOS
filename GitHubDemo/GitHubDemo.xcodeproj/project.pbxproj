@@ -12,6 +12,8 @@
 		21417A432151047400688CFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21417A412151047400688CFB /* Main.storyboard */; };
 		21417A452151047500688CFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21417A442151047500688CFB /* Assets.xcassets */; };
 		21417A482151047500688CFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21417A462151047500688CFB /* LaunchScreen.storyboard */; };
+		21FC3320216B7F13008878D9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC331F216B7F13008878D9 /* ViewController2.swift */; };
+		21FC3322216B8315008878D9 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC3321216B8315008878D9 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		21417A442151047500688CFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21417A472151047500688CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21417A492151047500688CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FC331F216B7F13008878D9 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		21FC3321216B8315008878D9 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				21417A442151047500688CFB /* Assets.xcassets */,
 				21417A462151047500688CFB /* LaunchScreen.storyboard */,
 				21417A492151047500688CFB /* Info.plist */,
+				21FC331F216B7F13008878D9 /* ViewController2.swift */,
+				21FC3321216B8315008878D9 /* ViewController3.swift */,
 			);
 			path = GitHubDemo;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				21417A402151047400688CFB /* ViewController.swift in Sources */,
 				21417A3E2151047400688CFB /* AppDelegate.swift in Sources */,
+				21FC3322216B8315008878D9 /* ViewController3.swift in Sources */,
+				21FC3320216B7F13008878D9 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
