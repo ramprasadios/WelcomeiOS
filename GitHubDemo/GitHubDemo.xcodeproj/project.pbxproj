@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211C262A217498CD00F7E9B4 /* TaskListTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C2629217498CD00F7E9B4 /* TaskListTableController.swift */; };
+		211C262C21749DC200F7E9B4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C262B21749DC200F7E9B4 /* SettingsViewController.swift */; };
+		211C262F2174A0AB00F7E9B4 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C262E2174A0AB00F7E9B4 /* CustomTableViewCell.swift */; };
+		211C26312174A7D600F7E9B4 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C26302174A7D600F7E9B4 /* AccountTableViewCell.swift */; };
 		21417A3E2151047400688CFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21417A3D2151047400688CFB /* AppDelegate.swift */; };
 		21417A402151047400688CFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21417A3F2151047400688CFB /* ViewController.swift */; };
 		21417A432151047400688CFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21417A412151047400688CFB /* Main.storyboard */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211C2629217498CD00F7E9B4 /* TaskListTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListTableController.swift; sourceTree = "<group>"; };
+		211C262B21749DC200F7E9B4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		211C262E2174A0AB00F7E9B4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		211C26302174A7D600F7E9B4 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
 		21417A3A2151047400688CFB /* GitHubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21417A3D2151047400688CFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21417A3F2151047400688CFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		211C262D2174A09200F7E9B4 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				211C262E2174A0AB00F7E9B4 /* CustomTableViewCell.swift */,
+				211C26302174A7D600F7E9B4 /* AccountTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
 		21417A312151047400688CFB = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +75,7 @@
 		21417A3C2151047400688CFB /* GitHubDemo */ = {
 			isa = PBXGroup;
 			children = (
+				211C262D2174A09200F7E9B4 /* CustomCells */,
 				21417A3D2151047400688CFB /* AppDelegate.swift */,
 				21417A3F2151047400688CFB /* ViewController.swift */,
 				21417A412151047400688CFB /* Main.storyboard */,
@@ -66,6 +84,8 @@
 				21417A492151047500688CFB /* Info.plist */,
 				21FC331F216B7F13008878D9 /* ViewController2.swift */,
 				21FC3321216B8315008878D9 /* ViewController3.swift */,
+				211C2629217498CD00F7E9B4 /* TaskListTableController.swift */,
+				211C262B21749DC200F7E9B4 /* SettingsViewController.swift */,
 			);
 			path = GitHubDemo;
 			sourceTree = "<group>";
@@ -142,9 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				21417A402151047400688CFB /* ViewController.swift in Sources */,
+				211C262A217498CD00F7E9B4 /* TaskListTableController.swift in Sources */,
 				21417A3E2151047400688CFB /* AppDelegate.swift in Sources */,
+				211C262F2174A0AB00F7E9B4 /* CustomTableViewCell.swift in Sources */,
 				21FC3322216B8315008878D9 /* ViewController3.swift in Sources */,
+				211C26312174A7D600F7E9B4 /* AccountTableViewCell.swift in Sources */,
 				21FC3320216B7F13008878D9 /* ViewController2.swift in Sources */,
+				211C262C21749DC200F7E9B4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
